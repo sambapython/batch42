@@ -204,6 +204,10 @@ conditional statements assignments
 117. code to perform mathematical operations. take two numbers from the user: 1. ad, 2. sub, 3. mul, 4.div, 5.quit
 118. compare two lists ignore order. i.e return True l1=[1,2,3,4],l2=[4,2,3,1], fun(l1,l2)-> True
 119. XOR operation in pyton.
+120. how to remove all occurances of the given element in a list
+121. how to remove first n occurances of the given element in a list
+122. how to remove last n occurances of the given element in a list
+123. how to remove nth occurances of the given element in a list
 
 
 
