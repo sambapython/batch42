@@ -1,4 +1,5 @@
 
+print "name attribute value:",__name__
 def fun():
 	print "this is fun in f2 in current working directory"
 
