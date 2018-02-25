@@ -1,0 +1,39 @@
+Todo list
+1.Registration
+2.login
+  2->>	----login process----
+	enter username:
+	enter password:
+	---login success--
+		1. enter a task
+		2. modify the task
+		3. delete tha task
+		4. report
+		1-->
+			task name
+			task description
+			task start date
+			task completion date
+		2-->
+			Enter name:
+				Show the task details
+
+				task name:
+				task description:
+				task start date:
+				task completion date:
+		3-->
+			Enter name:
+				show the details
+				Do you want me to delete(y/n)
+					y--> delete the row
+					n-> got to the top menu
+  1-->
+      username=
+      passsword=
+      confirm password=
+      email=
+
+
+
+

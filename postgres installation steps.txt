@@ -1,0 +1,10 @@
+Goto: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+select your operation system to download
+
+while installing the postgres i will ask you, the password and portnumber(5432) for the user postgres
+
+pgadmin4 installtion not required in windows. installation required in liinux
+
+sudo apt-get install pgadmin4
+
+pip install psycopg2
