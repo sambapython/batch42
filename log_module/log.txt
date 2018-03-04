@@ -1,0 +1,41 @@
+INFO:root:INFO message
+ERROR:root:ERROR message
+DEBUG:root:DEBUG message
+WARNING:root:WARNING message
+2018-03-04 09:47:38,596=>INFO==>INFO message
+2018-03-04 09:47:38,596=>ERROR==>ERROR message
+2018-03-04 09:47:38,597=>DEBUG==>DEBUG message
+2018-03-04 09:47:38,597=>WARNING==>WARNING message
+2018-03-04 09:53:52,352=>INFO==>program started
+2018-03-04 09:53:55,870=>INFO==>a value taken
+2018-03-04 09:53:56,461=>INFO==>b value entered
+2018-03-04 09:53:56,462=>DEBUG==>a=12, b=6
+2018-03-04 09:53:56,462=>INFO==>a converted well
+2018-03-04 09:53:56,462=>INFO==>b converted well
+2018-03-04 09:53:56,462=>DEBUG==>after conversion a=12.0, b=6.0
+2018-03-04 09:53:56,462=>DEBUG==>res=2.0
+2018-03-04 09:53:56,462=>INFO==>progrm ended
+2018-03-04 09:54:19,426=>INFO==>program started
+2018-03-04 09:54:20,622=>INFO==>a value taken
+2018-03-04 09:54:21,333=>INFO==>b value entered
+2018-03-04 09:54:21,333=>DEBUG==>a=12, b=0
+2018-03-04 09:54:21,333=>INFO==>a converted well
+2018-03-04 09:54:21,333=>INFO==>b converted well
+2018-03-04 09:54:21,333=>DEBUG==>after conversion a=12.0, b=0.0
+2018-03-04 09:54:21,333=>ERROR==>b value should not zero.
+2018-03-04 09:54:21,333=>INFO==>progrm ended
+2018-03-04 09:54:50,720=>INFO==>program started
+2018-03-04 09:54:52,077=>INFO==>a value taken
+2018-03-04 09:54:52,813=>INFO==>b value entered
+2018-03-04 09:54:52,813=>DEBUG==>a=qwe, b=wer
+2018-03-04 09:54:52,813=>ERROR==>expecting only digits got alphabets
+2018-03-04 09:54:52,813=>INFO==>progrm ended
+2018-03-04 09:58:53,877=>INFO==>program started
+2018-03-04 09:58:54,941=>INFO==>a value taken
+2018-03-04 09:58:55,509=>INFO==>b value entered
+2018-03-04 09:58:55,509=>DEBUG==>a=12, b=6
+2018-03-04 09:58:55,509=>INFO==>a converted well
+2018-03-04 09:58:55,509=>INFO==>b converted well
+2018-03-04 09:58:55,509=>DEBUG==>after conversion a=12.0, b=6.0
+2018-03-04 09:58:55,509=>DEBUG==>res=2.0
+2018-03-04 09:58:55,509=>INFO==>progrm ended
