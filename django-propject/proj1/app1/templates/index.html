@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>customer</title>
+</head>
+<body>
+	<h1> this is customer page</h1>
+	<table border="2">
+		<tr>
+			<th>NAME</th>
+			<th>EMAIL</th>
+		</tr>
+		{%for row in data%}
+			<tr>
+				<td>{{ row.name }}</td>
+				<td>{{ row.email }}</td>
+			</tr>
+		{% endfor %}
+		
+	</table>
+	<form method="post">
+		{% csrf_token %}
+		name:<input type="text" name="cust_name">
+		email:<input type="email" name="cust_email">
+		<input type="submit" name="">
+	</form>
+</body>
+</html>

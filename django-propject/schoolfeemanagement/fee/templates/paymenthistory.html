@@ -1,0 +1,33 @@
+{% extends 'base.html'%}
+{%block content%}
+<div class="container">
+  
+  <h1>Showing payment details of: {{ request.session.user }}</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>name</th>
+        <th>phone</th>
+        <th>school</th>
+        <th>section</th>
+        <th>payment paid</th>
+        <th>payment due</th>
+      </tr>
+    </thead>
+    <tbody>     
+    	{% for row in data%}
+    		<tr class="success">
+		        <td>{{row.name}}</td>
+            <td>{{row.phone}}</td>
+            <td>{{row.school}}</td>
+            <td>{{row.section}}</td>
+            <td>{{row.amount}}</td>
+            <td>{{ row.due }}</td>
+		      </tr>
+    	{% endfor%}
+      
+    </tbody>
+  </table>
+</div>
+
+{% endblock%}

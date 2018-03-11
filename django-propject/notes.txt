@@ -1,0 +1,38 @@
+cretae project: django-admin startproject proj1
+got the project folder adn create an app
+ cd proj1/
+~/pythonexamples/batch42/django-propject/proj1$ python manage.py startapp app1
+
+To create a table in database
+Add the model class in models.py
+goto project folder
+cd proj1/
+python manage.py makemigrations
+python manage.py migrate
+
+
+To run the server
+cd proj1/
+python manage.py runserver
+
+copy paste the below url on browser to get the login page
+http://localhost:8000/admin/login/?next=/admin/
+
+create onbe superuser ot login
+cd proj1/
+python manage.py createsuperuser
+
+Add your model to admin page.
+open admin.py in your app folder
+add the below lines
+
+from models import Customer
+admin.site.register(Customer)
+
+goto admin page and refresh
+
+Enter url in the browser-> server->settings.py(ROOT_URLCONF)->proj1.urls-> serach for your url-> if its find it will go with the directios-> it will call view function-> return a value to server-> server parse the response and send it to broser an an html content.
+
+To render to html page
+
+create templates folder in app1. Here need to write an html pages
